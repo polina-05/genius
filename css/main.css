@@ -810,6 +810,9 @@ a {
 }
 .footer__address-icon {
   fill: var(--color-primary-light);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   /* stroke: red; */
 }
 .footer__address-icon:hover {
